@@ -32,7 +32,7 @@ const HeroBanner = () => {
 
   const { loading, error, data } = useQuery(MY_QUERY, { client });
   if (loading) {
-    return <>loading</>
+    return <>loading2</>
   }
   const heroBanner = data?.banners[0]
 
